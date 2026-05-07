@@ -15,7 +15,8 @@
   ```
   brew install python
   ```
-- uv 설치 및 의존성 패키지 설치 (pyproject.toml 필요, /.venv 디렉토리에 가상환경을 생성하고, uv.lock에 정의된 패키지들을 설치):
+- uv 설치 및 의존성 패키지 설치:
+  (pyproject.toml 필수 / .venv 디렉토리에 가상환경을 생성하고, uv.lock에 정의된 패키지들을 설치)
   ```
   brew install uv
   uv pip install -r pyproject.toml
