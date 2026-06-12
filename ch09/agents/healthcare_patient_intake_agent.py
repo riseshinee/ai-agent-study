@@ -1,6 +1,5 @@
 from __future__ import annotations
 """
-healthcare_patient_intake_agent.py
 LangGraph workflow for a healthcare patient intake and triage agent,
 handling patient registration, symptom assessment, appointment scheduling, and medical history management.
 """
